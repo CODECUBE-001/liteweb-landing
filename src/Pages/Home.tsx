@@ -7,6 +7,7 @@ import scrollOptions from "../Config/scroll";
 import { Helmet } from "react-helmet";
 import Header from "../Layout/Header";
 import dashboard from '../Assets/dashboard.png';
+import dashb from '../Assets/dash.png';
 import logo from '../Assets/logo.png'
 import {FaAngleDown, FaArrowDown as ArrowDown, FaCaretDown, FaCheck } from 'react-icons/fa'
 const Home = () => {
@@ -49,7 +50,7 @@ const Home = () => {
       
         </div>
         <div className="">
-          <img src={dashboard} alt="" className='w-3/4 mx-auto' />
+          <img src={dashb} alt="" className='w-3/4 mx-auto' />
         </div>
 
 
