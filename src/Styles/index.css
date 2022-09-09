@@ -42,6 +42,9 @@ html {
   }
 
 
+.listo{
+  list-style-image: url('public/li.png');
+}
 
 ::-webkit-scrollbar{
   appearance: none;
