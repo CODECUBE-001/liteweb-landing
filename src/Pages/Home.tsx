@@ -48,7 +48,7 @@ const Home = () => {
       
         </div>
         <div className="">
-          <img src={'/dashboard.png'} alt="" className='w-3/4 mx-auto' />
+          <img src={'https://utolcutt.sirv.com/Images/liteweb/4.png'} alt="" className='w-3/4 mx-auto' />
         </div>
 
 
@@ -72,7 +72,7 @@ const Home = () => {
           </div>
           {/* comp */}
           <div className="">
-          <img src={'/dashboard.png'} alt="" className='w-[500px]' />
+          <img src={'https://utolcutt.sirv.com/Images/liteweb/1-removebg-preview.png'} alt="" className='w-[500px]' />
           </div>
         </div>
 
@@ -90,8 +90,8 @@ Get to know them.
         </h1>
       {/* button @showcase */}
       <button className='bg-primary text-center text-xs text-black px-12 block m-auto my-5 py-3'>Showcase</button>
-    <div className="template-demos h-[40vh] my-5">
-      <img src={'/dashboard.png'} alt="" className='w-full mx-auto' />
+    <div className="template-demos h-[15vh] my-5 items-center">
+      <img src={'https://utolcutt.sirv.com/Images/liteweb/Awesome_page_builder_with_400%2B_professionally_designed_blocks__1_-removebg-preview.png'} alt="" className='w-full mx-auto ' />
       {/* template image */}
       {/* <div className="w-[200px] h-[100px] flex-shrink-0 bg-gray-700"></div>
       <div className="w-[150px] h-[100px] flex-shrink-0 bg-gray-300"></div>
@@ -229,7 +229,7 @@ Get to know them.
     </div>
   </div>
   <div className="">
-  <img src={'/dashboard.png'} alt="" className='w-full mx-auto mt-12' />
+  <img src={'https://utolcutt.sirv.com/Images/liteweb/Group%20458.png'} alt="" className='w-full mx-auto mt-12' />
   </div>
 </section>
 
