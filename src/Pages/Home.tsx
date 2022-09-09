@@ -41,7 +41,8 @@ const Home = () => {
             <span className="block">Everything you need to </span>
             <span className="block">Start Building today.</span>
           </h1>
-        <p className="max-w-[500px] px-1 m-auto text-xs md:text-sm py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla ipsum necessitatibus beatae! Velit facere similique quae, enim esse quam.</p>
+        <p className="max-w-[500px] px-1 m-auto text-xs md:text-sm py-3"> Build UI effortlessly and in minutes with over 400 professionally designed blocks that allow users to
+ build websites and pages using our easy drag-and-drop builder.</p>
 
         <button className="w-[50px] h-[50px] md:w-[90px] md:h-[90px] flex justify-center items-center text-md md:text-2xl bg-primary rounded-full  mx-auto">
           <ArrowDown />
