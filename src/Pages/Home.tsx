@@ -63,8 +63,8 @@ const Home = () => {
               Built for the way you work
             </h3>
             <p className='text-sm py-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis non earum error temporibus accusamus.
-            </p>
+            With our 400+ pre-built blocks and template, you can effortlessly create distinctive looking landing pages and websites in under 30 minutes. Xtraweb also includes an SEO tool and a lovely form builder. 
+</p>
               <li>Drag and Drop Website Builder</li>
               <li>400+ pre made blocks</li>
               <li>Export Your code to your Device</li>
@@ -118,7 +118,7 @@ Get to know them.
  <section className='py-12 my-12 px-2'>
 <div className="text-center">
   <h1 className='text-4xl md:text-5xl max-w-[500px] md:max-w-[750px] py-1 mx-auto'>It's Easy to Get Started</h1>
-  <p className='text-sm my-3 mx-auto max-w-[500px]'>Lorem ipsum dolor sit amet, consectetur adipisicing met, consectetur adipisicing.</p>
+  <p className='text-sm my-3 mx-auto max-w-[500px]'>It's very affordable Yunno</p>
 
   <div className="flex  items-center my-3 font-[500] justify-center gap-6">
     <span>Monthly</span>
@@ -213,6 +213,7 @@ Get to know them.
 <section className="text-center py-12 h-[600px] bg-primary/50 px-3 overflow-hidden">
   <div className="pt-6">
     <h2 className='text-4xl'>Get Started With Lite Web</h2>
+    <p>With Integrations like: Mailchimp, Campaign Monster etc</p>
     <button className='bg-gray-800 text-xs w-[190px] rounded-sm shadow-sm block px-5 py-4 my-5 mx-auto'>Try Lite Web for Free</button>
     <div className="flex justify-center items-center gap-6">
 {/* @comp */}
