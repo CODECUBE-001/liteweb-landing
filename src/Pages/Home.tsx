@@ -6,8 +6,6 @@ import { Fragment, useRef } from "react";
 import scrollOptions from "../Config/scroll";
 import { Helmet } from "react-helmet";
 import Header from "../Layout/Header";
-import dashboard from '../Assets/dashboard.png';
-import logo from '../Assets/logo.png'
 import {FaAngleDown, FaArrowDown as ArrowDown, FaCaretDown, FaCheck } from 'react-icons/fa'
 const Home = () => {
   const containerRef = useRef(null);
@@ -50,7 +48,7 @@ const Home = () => {
       
         </div>
         <div className="">
-          <img src={dashboard} alt="" className='w-3/4 mx-auto' />
+          <img src={'/dashboard.png'} alt="" className='w-3/4 mx-auto' />
         </div>
 
 
@@ -74,7 +72,7 @@ const Home = () => {
           </div>
           {/* comp */}
           <div className="">
-          <img src={dashboard} alt="" className='w-[500px]' />
+          <img src={'/dashboard.png'} alt="" className='w-[500px]' />
           </div>
         </div>
 
@@ -93,7 +91,7 @@ Get to know them.
       {/* button @showcase */}
       <button className='bg-primary text-center text-xs text-black px-12 block m-auto my-5 py-3'>Showcase</button>
     <div className="template-demos h-[40vh] my-5">
-      <img src={dashboard} alt="" className='w-full mx-auto' />
+      <img src={'/dashboard.png'} alt="" className='w-full mx-auto' />
       {/* template image */}
       {/* <div className="w-[200px] h-[100px] flex-shrink-0 bg-gray-700"></div>
       <div className="w-[150px] h-[100px] flex-shrink-0 bg-gray-300"></div>
@@ -231,7 +229,7 @@ Get to know them.
     </div>
   </div>
   <div className="">
-  <img src={dashboard} alt="" className='w-full mx-auto mt-12' />
+  <img src={'/dashboard.png'} alt="" className='w-full mx-auto mt-12' />
   </div>
 </section>
 
@@ -284,7 +282,7 @@ Get to know them.
 
       <footer className="p-5 md:p-12">
       <div className="">
-        <img src={logo} className='w-[60px]' alt="" />
+        <img src={'/logo.png'} className='w-[60px]' alt="" />
         <h3 className="text-3xl md:text-5xl max-w-[700px] py-4"><span className="text-primary">Subscribe</span> to our newsletter to stay in touch tith us</h3>
         <div className="">
           <input type="text" placeholder='Enter Here' className='py-3 text-2xl md:text-4xl bg-transparent outline-none' />
