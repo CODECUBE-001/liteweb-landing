@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import {
-  LocomotiveScrollProvider,
+LocomotiveScrollProvider,
 } from "react-locomotive-scroll";
 import { Fragment, useRef } from "react";
 import scrollOptions from "../Config/scroll";
 import { Helmet } from "react-helmet";
 import Header from "../Layout/Header";
+import {Hero, Features} from '../Components'
 import {FaAngleDown, FaArrowDown as ArrowDown, FaCaretDown, FaCheck } from 'react-icons/fa'
 const Home = () => {
   const containerRef = useRef(null);
@@ -31,59 +32,13 @@ const Home = () => {
 
   <Header />
 
-
+  <Hero/>
     {/* hero */}
-        <div className="text-center py-10 px-2">
-          <h1 className="max-w-[650px] mx-auto text-bold text-3xl md:text-5xl">
-            <span className="block text-primary ">Lite Web Builder</span>
-            <span className="block">Everything you need to </span>
-            <span className="block">Start Building today.</span>
-          </h1>
-        <p className="max-w-[500px] px-1 m-auto text-xs md:text-sm py-3"> Build UI effortlessly and in minutes with over 400 professionally designed blocks that allow users to
- build websites and pages using our easy drag-and-drop builder.</p>
 
-        <button className="w-[50px] h-[50px] md:w-[90px] md:h-[90px] flex justify-center items-center text-md md:text-2xl bg-primary rounded-full  mx-auto">
-          <ArrowDown />
-        </button>
-      
-        </div>
-        <div className="">
-          <img src={'https://utolcutt.sirv.com/Images/liteweb/4.png'} alt="" className='w-3/4 mx-auto' />
-        </div>
-
-
+    <div className="">
+              <img src={'https://utolcutt.sirv.com/Images/liteweb/4.png'} alt="" className='w-3/4 mx-auto' />
+          </div>
       {/* features */}
-
-
-      <section className="my-12 py-12 px-4">
-        <div className='flex flex-col md:flex-row  relative py-12  justify-around'>
-          {/* @comp */}
-          <div className="max-w-[400px] my-5 md:my-0 listo">
-            <h3 className="text-5xl">
-              Built for the way you work
-            </h3>
-            <p className='text-sm py-4'>
-            With our 400+ pre-built blocks and template, you can effortlessly create distinctive looking landing pages and websites in under 30 minutes. Xtraweb also includes an SEO tool and a lovely form builder. 
-</p>
-              <li>Drag and Drop Website Builder</li>
-              <li>400+ pre made blocks</li>
-              <li>Export Your code to your Device</li>
-              <li>Free Subdomain</li>
-              <li>Add Your own Domain (Coming Soon)</li>
-              <li>Push to Cpanel Directly</li>
-              <li>Add Your own code</li>
-            <div className="flex gap-3 text-xs items-center">
-              <span className='text-primary underline'>Keep Scrolling</span>
-              <span><ArrowDown /></span>
-            </div>
-          </div>
-          {/* comp */}
-          <div className="">
-          <img src={'https://utolcutt.sirv.com/Images/liteweb/1-removebg-preview.png'} alt="" className='w-[500px]' />
-          </div>
-        </div>
-
-      </section>
 
         {/* templates showcase */}
 

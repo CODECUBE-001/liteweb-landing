@@ -43,7 +43,7 @@ html {
 
 
 .listo{
-  list-style-image: url('public/li.png');
+  list-style-image: url('li.png');
 }
 
 ::-webkit-scrollbar{
