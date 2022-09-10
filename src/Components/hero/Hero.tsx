@@ -16,7 +16,10 @@ const Hero = () => {
               <ArrowDown />
           </button>
 
-      </div></>
+      </div>
+      <div className="">
+              <img src={'https://utolcutt.sirv.com/Images/liteweb/4.png'} alt="" className='w-3/4 mx-auto' />
+          </div></>
   )
 }
 
