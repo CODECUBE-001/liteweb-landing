@@ -5,3 +5,4 @@ export {default as Pricing}from './pricing/Pricing'
 export {default as Blog} from './blog/Blog'
 export {default as Cta} from './cta/Cta'
 export {default as Faq} from './faq/Faq'
+export { default as Chatbot } from "./chatbot/Chatbot";
