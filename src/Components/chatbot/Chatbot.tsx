@@ -123,6 +123,7 @@ const Chatbot = () => {
             <input
               type="text"
               onChange={(e: any) => setMsg(e.target.value)}
+              onKeyUp={(e: any) => e.which === 13 && SubmitHandler()}
               value={msg}
               placeholder="Write Something..."
               className="py-2  outline-0 px-3 bg-transparent text-sm w-[180px] rounded-full"
