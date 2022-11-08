@@ -15,7 +15,7 @@ const Body = () => {
       <Features />
       <Showcase />
       <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <Cta />
       <Faq />
     </>
