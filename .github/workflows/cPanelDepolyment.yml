@@ -1,19 +1,31 @@
-name: Publish Website to Web Hosting
 on:
   push:
-    branches:
-      - main
+    branches: main
+
+name: 🚀 Deploy website on push
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+          npm run test
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_name }}
+          password: ${{ secrets.ftp_password }}
+          dangerous-clean-slate: true
+          local-dir: ./build/
