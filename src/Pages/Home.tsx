@@ -17,11 +17,11 @@ const Home = () => {
         <title>Lite web - Home</title>
       </Helmet>
       <Chatbot />
-      <LocomotiveScrollProvider
+      {/* <LocomotiveScrollProvider
         watch={[]}
         options={scrollOptions}
         containerRef={containerRef}
-      >
+      > */}
         <motion.main
           exit={{ opacity: 0 }}
           key="home"
@@ -33,7 +33,7 @@ const Home = () => {
           <Body />
           <Footer />
         </motion.main>
-      </LocomotiveScrollProvider>
+      {/* </LocomotiveScrollProvider> */}
     </Fragment>
   );
 };
