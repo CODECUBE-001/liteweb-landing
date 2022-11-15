@@ -1,5 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {FaAngleDown } from 'react-icons/fa'
+
+const FAQ = ({ans, ques}:{ans:string, ques:string})=>{
+  const [isOpen , setOpen] = useState(false)
+  return(
+    <div className="md:p-4 p-3 px-8 my-5 rounded-[30px] bg-gray-900">
+    <div className="flex justify-between gap-5  my-1 items-center" onClick={()=> setOpen(!isOpen)}>
+    <span className="text-sm md:text-md text-lg">{ques}</span>
+    <span className=""><FaAngleDown /></span>
+    </div>
+
+   {isOpen &&  <div className="">{ans}</div>}
+  </div>
+  )
+}
 
 const Faq = () => {
   return (
@@ -11,31 +25,11 @@ const Faq = () => {
 </div>
 <div className="max-w-[450px]">
   {/* faqs */}
-  
-  <div className="flex justify-between gap-5 my-5 items-center md:p-4 p-3 px-8 rounded-full bg-gray-900">
-    <span className="text-sm md:text-md">Can I Cancel or Change Plans at Anytime ?</span>
-    <span className=""><FaAngleDown /></span>
-  </div>
-  
-  <div className="flex justify-between gap-5 my-5 items-center md:p-4 p-3 px-8 rounded-full bg-gray-900">
-    <span className="text-sm md:text-md">Does Lite web works on mobile ?</span>
-    <span className=""><FaAngleDown /></span>
-  </div>
-  
-  <div className="flex justify-between gap-5 my-5 items-center md:p-4 p-3 px-8 rounded-full bg-gray-900">
-    <span className="text-sm md:text-md">Is there a free or Trial version ?</span>
-    <span className=""><FaAngleDown /></span>
-  </div>
-  
-  <div className="flex justify-between gap-5 my-5 items-center md:p-4 p-3 px-8 rounded-full bg-gray-900">
-    <span className="text-sm md:text-md">Can I Export it to .TSX file ?</span>
-    <span className=""><FaAngleDown /></span>
-  </div>
-  
-  <div className="flex justify-between gap-5 my-5 items-center md:p-4 p-3 px-8 rounded-full bg-gray-900">
-    <span className="text-sm md:text-md">Do i need to have basic knowlegde in programing ?</span>
-    <span className=""><FaAngleDown /></span>
-  </div>
+  <FAQ ques="Can I Cancel or Change Plans at Anytime ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
+  <FAQ ques="Does Lite web works on mobile ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
+  <FAQ ques="Is there a free or Trial version ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
+  <FAQ ques="Can I Export it to .TSX file ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
+  <FAQ ques="Do i need to have basic knowlegde in programing ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
 
 
 </div>

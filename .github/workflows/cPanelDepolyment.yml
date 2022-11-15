@@ -20,7 +20,6 @@ jobs:
         run: |
           npm install
           npm run build
-          npm run test
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
