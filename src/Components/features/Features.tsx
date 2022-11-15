@@ -43,43 +43,43 @@ const Features = () => {
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
       <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <p>Build code easily, just like you're designing. This will help save time as your code will be generated immmediately.</p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">Export Code</h4>
+      <p>This features, users get to export their assests from their site safely, which include javascript files, CSS files and photos. This allows users to continue editing even after they leave the website.</p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">Domain Name</h4>
+      <p>You can get a subdomain (.litewebhq.com) and you can also link your domain name to liteweb Engine e.g; mysite.com, all in one click.</p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">Blocks</h4>
+      <p> With over 400 professionally designed blocks, you get to swiftly create websites and pages, interestingly, these blocks can be customized to your taste! </p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">24/7 Support</h4>
+      <p>We don't back out after subscription, we are here to assist you and make sure you do not have any difficulties using our product.</p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">FTP Push</h4>
+      <p>WIth one click, you can seamlessly sync with your cpanel, hence, you can use Liteweb Engine as a lite CMS.</p>
     </div>
 
     <div className="w-[300px] text-center">
       <FaAccessibleIcon className="text-center/ text-4xl m-auto text-primary" />
-      <h4 className="text-3xl my-1">Drag and Drop</h4>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A distinctio ea ut quisquams.</p>
+      <h4 className="text-3xl my-1">Easy to Use</h4>
+      <p>Everything in one aesthetically pleasing UI!, attractive designed interface, with an astonishing clear and concise documentation and guide videos.</p>
     </div>
 
     </div>
