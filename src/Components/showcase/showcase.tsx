@@ -7,8 +7,7 @@ const Showcase = () => {
         background:'linear-gradient(0deg, #054342,black, black )'
       }}>
         <h1 className="text-center text-3xl md:text-5xl max-w-[750px] mx-auto my-3">
-This is the new Generation of <span className="text-primary">No-Code Websites {' '}</span>
-Get to know them.
+        Welcome to The New Generation of <span className="text-primary"> No-Code Websites {' '}</span>
         </h1>
       {/* button @showcase */}
       <button className='bg-primary text-center text-xs text-black px-12 block m-auto my-5 py-3'>Showcase</button>

@@ -9,7 +9,7 @@ const _404 = () => (
         404
       </h1>
       <p className="py-1 max-w-[300px] text-xs">
-        Oops, looks like the page you requested is missing...
+        Oops, looks like the page you requested is missing....
       </p>
       <Link to="/">
         {" "}
