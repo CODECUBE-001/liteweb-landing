@@ -25,11 +25,15 @@ const Faq = () => {
 </div>
 <div className="max-w-[450px]">
   {/* faqs */}
-  <FAQ ques="Can I Cancel or Change Plans at Anytime ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
-  <FAQ ques="Does Lite web works on mobile ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
-  <FAQ ques="Is there a free or Trial version ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
-  <FAQ ques="Can I Export it to .TSX file ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
-  <FAQ ques="Do i need to have basic knowlegde in programing ?" ans='Lorem ipsum dolor sit, amet consectetur adipisicing elit.' />
+  <FAQ ques="Is Liteweb Free?" ans='Yes, Liteweb offers free trial and a free plan too, however, for the very best experience, I would recommend a paid plan.' />
+<FAQ ques="Can I use Liteweb on a Live Project?" ans='Yes, This website and some other Live Websites were built on Liteweb Engine, since it enables you to export code and also use FTP. Check the showcase page for more.
+.' />
+  <FAQ ques="Do I need a hosting and domain to get started?" ans='No, you can get a free subdomain from us by going to the project settings page in your dashboard. However for a large or live project, I would recommend you use your own domain and hosting.' />
+  <FAQ ques="Can I use Liteweb Engine on Github?" ans='No, we do not support direct push to Github yet. Our team are working very hard to make this possible. however, you can do that by downloading your code and upload to Github or use the FTP - Github method.' />
+  <FAQ ques="Is coding knowledge needed for Liteweb Engine?" ans='No, You do not need to code, however, coding knowledge will give your website more flexibility as our website builder allows users to write custom Bootstrap code. Also, after exporting your code, you can add any technology (Frontend or Backend) to it.' />
+  <FAQ ques="Is there any available template for Liteweb Engine?" ans='No, not at the moment, but we are working on some, however, you can make use of the 400+ professionally built blocks.' />
+  <FAQ ques="do I need any prequisite to us Liteweb Engine?" ans='No, the builder is so easy to use.' />
+  <FAQ ques="can I download the desktop app?" ans='No, our team are working really hard to make that possible as soon as possible.' />
 
 
 </div>
