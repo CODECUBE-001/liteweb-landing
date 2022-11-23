@@ -1,7 +1,7 @@
 import {FaCheck, FaTimes} from "react-icons/fa"
 import {useState} from "react"
 const Pricing = () => {
-  const [isMonth, setToggle] = useState(false)
+  const [isMonth, setToggle] = useState(true)
   return (
     
  <section className='py-12 my-12 px-2'>
