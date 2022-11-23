@@ -45,7 +45,7 @@ const Pricing = () => {
  <div className="w-[300px] min-h-[400px] bg-gray-800">
  <div className="p-8">
  <h4 className='text-xl'>Starter</h4>
- <h2><span className='text-5xl font-[500] text-primary'>#{(5 * (isMonth?1:12))}k</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
+ <h2><span className='text-5xl font-[500] text-primary'>₦{(5 * (isMonth?1:12))}k</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
  
  <ul className='text-sm my-3 gap-2 grid'>
    <li className="flex gap-1 items-center"><FaCheck /> <span className="px-1">10 Websites Monthly</span></li>
@@ -64,7 +64,7 @@ const Pricing = () => {
  <div className="w-[300px] min-h-[400px] bg-gray-800">
  <div className="p-8">
  <h4 className='text-xl'>Ultimate</h4>
- <h2><span className='text-5xl font-[500] text-primary'>#{(10 * (isMonth?1:12))}K</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
+ <h2><span className='text-5xl font-[500] text-primary'>₦{(10 * (isMonth?1:12))}K</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
  
  <ul className='text-sm my-3 gap-2 grid'>
    <li className="flex gap-1 items-center"><FaCheck /> <span className="px-1">30 Websites Monthly</span></li>
@@ -84,7 +84,7 @@ const Pricing = () => {
  <div className="w-[300px] min-h-[400px] bg-gray-800">
  <div className="p-8">
  <h4 className='text-xl'>Pro</h4>
- <h2><span className='text-5xl font-[500] text-primary'>#{(15 * (isMonth?1:12))}k</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
+ <h2><span className='text-5xl font-[500] text-primary'>₦{(15 * (isMonth?1:12))}k</span> <span className="text-xs opacity-60">/ {isMonth ? "month":"year"}</span></h2>
  
  <ul className='text-sm my-3 gap-2 grid'>
    <li className="flex gap-1 items-center"><FaCheck /> <span className="px-1">Unlimited Websites</span></li>
