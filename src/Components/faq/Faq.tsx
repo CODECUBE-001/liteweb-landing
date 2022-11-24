@@ -21,7 +21,7 @@ const Faq = () => {
 <div className="">
   <h3 className="text-3xl md:text-5xl max-w-[400px]">Frequently Asked Questions</h3>
   <p className='text-xs py-2 max-w-[400px]'>Have Questions not listed here?, Contact our team and we'll be happy to help : )</p>
-<a href="mailto:test@email.com"><button className='bg-gray-800 text-sm w-[150px] rounded-sm shadow-sm block py-3 my-2'>Contact Us</button></a>
+<a href="mailto:Getxtraweb@gmail.com"><button className='bg-gray-800 text-sm w-[150px] rounded-sm shadow-sm block py-3 my-2'>Contact Us</button></a>
 </div>
 <div className="max-w-[450px]">
   {/* faqs */}
