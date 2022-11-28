@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "vite --host",
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "start": "node api.js && vite --host",
+    "dev": "node api.js && vite",
+    "build": "node api.js && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "framer-motion": "^6.3.11",
     "locomotive-scroll": "^4.1.4",
+    "node-fetch": "^3.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "*",
