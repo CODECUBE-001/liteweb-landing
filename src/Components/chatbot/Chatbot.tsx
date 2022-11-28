@@ -105,9 +105,9 @@ const Chatbot = () => {
     setMsg("");
   };
   return (
-    <div className="fixed bottom-[50px] right-0 m-6 z-10" data-scroll-sticky>
+    <div className="fixed bottom-[-10px] right-0 m-6 z-10" data-scroll-sticky>
       {isOpen && (
-        <div className="chat-container shadow-md rounded-md p-5 flex flex-col justify-between translate-y-[20px] w-[300px] h-[400px] bg-gray-900">
+        <div className="chat-container shadow-md rounded-md p-5 flex flex-col justify-between translate-y-[50px] translate-x-[-30px] w-[300px] h-[400px] bg-gray-900">
           <div className="chat-header">
             <div className="bg-black/20 relative flex items-center p-2 gap-[5px] rounded-md h-[50px]">
               <div className="avatar bg-red-500 w-[30px] h-[30px] rounded-full ring-3 ring-gray-900"></div>
