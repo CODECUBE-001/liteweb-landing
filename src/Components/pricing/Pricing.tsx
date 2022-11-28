@@ -1,4 +1,4 @@
-import {FaCheck, FaTimes} from "react-icons/fa"
+import {FaCheck, FaTimes, FaStar} from "react-icons/fa"
 import {useState} from "react"
 const Pricing = () => {
   const [isMonth, setToggle] = useState(true)
@@ -15,7 +15,7 @@ const Pricing = () => {
      <div className="w-[70px] h-[35px] bg-gray-800 rounded-full flex items-center">
        <span className={`h-[30px] w-[30px] block bg-primary m-1 rounded-full cursor-pointer ${!isMonth && "translate-x-[100%]"} `}></span>
      </div>
-     <span className='opacity-60'>Yearly</span>
+     <span className='flex gap-1'><span className="opacity-60">Yearly</span> <span className='flex text-[gold]'><FaStar />-18%</span> </span>
    </div>
  </div>
  
